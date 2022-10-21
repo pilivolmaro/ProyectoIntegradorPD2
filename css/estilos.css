@@ -5,6 +5,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* nav */
+
 .caja_header-img img{
     max-width: 5%;
 }
@@ -15,6 +18,11 @@
     list-style: none;
     font-size: 1em;
 }
+.caja_header-nav li :hover{
+    background-color: #2E2828;
+    color: white;
+}
+
 hr{
     max-width: 80%;
 }
@@ -28,4 +36,90 @@ hr{
 }
 .img-princ img{
     max-width: 100%;
+}
+
+
+/* aside */
+
+.main_aside{
+    border: #2E2828 solid 2px;
+    order: -1;
+}
+.aside_h2{
+    background-color: #2E2828;
+}
+.aside_h2 h2{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: white;
+}
+
+.proyectos img{
+    max-width: 100%;
+}
+.proyectos h4{
+    font-size: 1.3em;
+}
+.proyectos h3{
+    font-size: 1.7em;
+}
+
+
+/* info */
+
+.info_h2 h2{
+    text-align: left;
+    font-size: 1.8em;
+}
+.main_info img{
+    max-width: 100%;
+}
+
+.main_info p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.cajasflex img{
+    max-width: 22%;
+    border: none;
+}
+
+/* form */
+.formulario .btn {
+    background-color: #2E2828;
+    color: white;
+    border-width: 0px;
+}¨
+
+.formulario .btn :hover{
+    background-color: white;
+    color: #2E2828;
+}
+
+
+/* form */
+.texto-form{
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+/* footer */
+footer{
+    height: 30vh;
+}
+footer div{
+    height: 100%;
+}
+
+footer div span{
+    font-size: 2em;
+}
+
+footer div svg{
+    max-width: 2%;
+}
+footer div :nth-child(3){
+    max-width: 1.4%;
 }
