@@ -6,22 +6,53 @@
 }
 
 
+.navbar-brand{
+    max-width: 7%;
+}
+.navbar-brand img{
+    max-width: 100%;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 3em;
+    color: #2E2828;
+    transition-duration: 0.5s;
+    transition-property: background-color color;
+}
+
+.nav-item :hover{
+    background-color: #2E2828;
+    color: white;
+}
+
+
+
+
 /* nav */
 
-.caja_header-img img{
+/* .caja_header-img a img{
     max-width: 5%;
 }
 
 .caja_header-nav li{
-    text-decoration: none;
     text-transform: uppercase;
     list-style: none;
     font-size: 1em;
 }
-.caja_header-nav li :hover{
+.caja_header-nav li a{
+    padding:0.5em 1em;
+    text-decoration: none;
+    color: #2E2828;
+    transition-duration: 0.5s;
+    transition-property: background-color color;
+
+}
+.caja_header-nav li a:hover{
     background-color: #2E2828;
     color: white;
-}
+} */
 
 hr{
     max-width: 80%;
@@ -43,7 +74,7 @@ hr{
 
 .main_aside{
     border: #2E2828 solid 2px;
-    order: -1;
+
 }
 .aside_h2{
     background-color: #2E2828;
@@ -62,6 +93,17 @@ hr{
 }
 .proyectos h3{
     font-size: 1.7em;
+}
+
+
+/* caja estadisticas */
+.caja-estadisticas{
+    border: solid #2E2828 1px;
+
+}
+.caja-estadisticas p{
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 
@@ -92,11 +134,20 @@ hr{
     border-width: 0px;
 }¨
 
-.formulario .btn :hover{
+.formulario form .btn :hover{
     background-color: white;
     color: #2E2828;
 }
 
+.boton-enviar{
+    background-color: #2E2828;
+    color: white;
+    border-width: 0px;
+}
+.boton-enviar :hover{
+    background-color: white;
+    color: #2E2828;
+}
 
 /* form */
 .texto-form{
@@ -117,9 +168,59 @@ footer div span{
     font-size: 2em;
 }
 
-footer div svg{
-    max-width: 2%;
+
+footer div a{
+    padding: 0 8%;
 }
-footer div :nth-child(3){
-    max-width: 1.4%;
+.iconos{
+    color: #2E2828;
+    font-size: 1.8em;
+}
+
+
+
+
+
+/* EMPRESA */
+
+.h2_empresa{
+    text-align: left;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    
+}
+.img-princ_empresa{
+    width: 100%;
+    margin: auto;
+}
+.img-princ_empresa img{
+    max-width: 100%;
+}
+
+
+/* aside empresa */
+.jin{
+    max-width: 100%;
+}
+
+
+/* GALERÍA */
+.h2_galeria{
+    background-color: #2E2828;
+    max-width: 50%;
+}
+.h2_galeria h2{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: white;
+}
+
+.prox-estrenos img{
+    max-width: 100%;
+}
+.prox-estrenos h4{
+    font-size: 1.3em;
+}
+.prox-estrenos h3{
+    font-size: 1.7em;
 }
