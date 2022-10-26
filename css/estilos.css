@@ -154,9 +154,8 @@ hr{
     font-size: 1.2em;
 }
 
-.cajasflex img{
+.main_info .cajasflex div img{
     max-width: 100%;
-    border: none;
 }
 
 /* form */
