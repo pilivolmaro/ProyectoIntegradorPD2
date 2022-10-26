@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/Logo_RR.png" type="image/x-icon">
 
+    <!--ANIMATE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -26,13 +29,15 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid d-sm-flex d-lg-block caja-navbar">
-                <a class="navbar-brand d-flex justify-content-center m-lg-auto m-sm-15%" active aria-current="page" href="index.html">
+                <a class="navbar-brand d-flex justify-content-center m-lg-auto m-sm-15%" active aria-current="page"
+                    href="index.html">
 
                     <img class="pt-3" src="img/Logo_RR.png" alt="logo-web">
 
                 </a>
-                <button class="navbar-toggler align-self-sm-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler align-self-sm-end" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -47,7 +52,7 @@
                             <a class="nav-link" href="empresa.html">Empresa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="galeria.html" >Galería</a>
+                            <a class="nav-link" href="galeria.html">Galería</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html#salto-form">Contacto</a>
@@ -59,54 +64,111 @@
 
     </header>
     <hr class="m-auto pb-4 d-lg-block d-sm-none">
+    <main>
 
-
-
-
-
-    <footer>
-        <div class="container-fluid d-flex justify-content-center align-items-center">
-            <a href="https://www.instagram.com/vancityreynolds/?hl=es" target="_blank">
-                <i class="iconos fa-brands fa-instagram"></i>
-            </a>
-            <span>/</span>
-            <a href="https://es-la.facebook.com/VancityReynolds/" target="_blank">
-                <i class="iconos fa-brands fa-facebook-f"></i>
-            </a>
-            <span>/</span>
-            <a href="https://twitter.com/VancityReynolds?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                target="_blank">
-                <i class="iconos fa-brands fa-twitter"></i>
-            </a>
+    <div class="container d-flex justify-content-center align-items-center text-center my-4 h2_carrera">
+        <h2 class="p-3 mb-0">Próximos estrenos</h2>
+    </div>
+    <div class="container row m-auto pb-5 cont_prox-estrenos">
+        <div class="container-fluid  col-xl-4 col-md-6 col-sm-12 prox-estrenos clue">
+            <h3 class="text-center pb-2 pt-4 h3_clue">Clue</h3>
+            <img src="img/clue.jpg" alt="Clue">
+            <h4 class="text-center pt-4 h4_clue">2023</h4>
         </div>
-    </footer>
-    
+        <div class="container-fluid col-xl-4 col-md-6 col-sm-12 prox-estrenos if">
+            <h3 class="text-center pb-2 pt-4 h3_if">IF</h3>
+            <img src="img/IF.jpg" alt="IF">
+            <h4 class="text-center pt-4 h4_if">2024</h4>
+        </div>
+        <div class="container-fluid col-xl-4 col-md-6 col-sm-12 prox-estrenos deadpool3">
+            <h3 class="text-center pb-2 pt-4 h3_deadpool">Deadpool 3</h3>
+            <img src="img/deadpool3.jpg" alt="Deadpool3">
+            <h4 class="text-center pt-4 h4_deadpool">2024</h4>
+        </div>
+    </div>
 
-    <!-- JS Boostrap -->
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (() => {
-            'use strict'
+    <div class="container d-flex justify-content-center align-items-center text-center my-4 h2_carrera">
+        <h2 class="p-3 mb-0">últimos estrenos</h2>
+    </div>
+    <div class="container row m-auto pb-5 cont_prox-estrenos">
+        <div class="container-fluid col-xl-4 col-md-6 col-sm-12 prox-estrenos">
+            <h3 class="text-center pb-2 pt-4">El Proyecto Adam</h3>
+            <img src="img/proyectadam.jpg" alt="ProyectAdam">
+            <h4 class="text-center pt-4 pb-5">2022</h4>
+        </div>
+        <div class="container-fluid col-xl-4 col-md-6 col-sm-12 prox-estrenos">
+            <h3 class="text-center pb-2 pt-4">Spirited</h3>
+            <img src="img/spirited.jpg" alt="IF">
+            <h4 class="text-center pt-4 pb-5">2022</h4>
+        </div>
+        <div class="container-fluid col-xl-4 col-md-6 col-sm-12 prox-estrenos">
+            <h3 class="text-center pb-2 pt-4">Alerta Roja</h3>
+            <img src="img/alertaroja.jpg" alt="Deadpool3">
+            <h4 class="text-center pt-4 pb-5">2021</h4>
+        </div>
+        <div class="container-fluid col-xl-4 col-md-6 col-sm-12 prox-estrenos">
+            <h3 class="text-center pb-2 pt-4">Free Guy</h3>
+            <img src="img/freeguy.jpg" alt="Free-Guy">
+            <h4 class="text-center pt-4">2021</h4>
+        </div>
+        <div class="container-fluid col-xl-4 col-md-6 col-sm-12 prox-estrenos">
+            <h3 class="text-center pb-2 pt-4">El otro guardaespaldas 2</h3>
+            <img src="img/elotrguardaespaldas2.jpg" alt="IF">
+            <h4 class="text-center pt-4">2021</h4>
+        </div>
+        <div class="container-fluid col-xl-4 col-md-6 col-sm-12 prox-estrenos">
+            <h3 class="text-center pb-2 pt-4">Deadpool 3</h3>
+            <img src="img/6ensombra.jpg" alt="Deadpool3">
+            <h4 class="text-center pt-4">2019</h4>
 
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            const forms = document.querySelectorAll('.needs-validation')
+        </div>
 
-            // Loop over them and prevent submission
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
 
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        })()
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+        </main>
+
+        <footer>
+            <div class="container-fluid d-flex justify-content-center align-items-center">
+                <a href="https://www.instagram.com/vancityreynolds/?hl=es" target="_blank">
+                    <i class="iconos fa-brands fa-instagram"></i>
+                </a>
+                <span>/</span>
+                <a href="https://es-la.facebook.com/VancityReynolds/" target="_blank">
+                    <i class="iconos fa-brands fa-facebook-f"></i>
+                </a>
+                <span>/</span>
+                <a href="https://twitter.com/VancityReynolds?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                    target="_blank">
+                    <i class="iconos fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </footer>
+
+
+        <!-- JS Boostrap -->
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (() => {
+                'use strict'
+
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                const forms = document.querySelectorAll('.needs-validation')
+
+                // Loop over them and prevent submission
+                Array.from(forms).forEach(form => {
+                    form.addEventListener('submit', event => {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+            })()
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
 
 </body>
 

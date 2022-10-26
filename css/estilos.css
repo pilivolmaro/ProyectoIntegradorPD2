@@ -27,6 +27,11 @@
     color: white;
 }
 
+.nav-item :active{
+    scale: .9;
+}
+
+
 
 
 
@@ -95,6 +100,33 @@ hr{
     font-size: 1.7em;
 }
 
+.free-guy{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-delay: 2s;
+}
+.spirited{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-delay: 3s;
+}
+.adam{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-delay: 4s;
+}
+.red{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-delay: 5s;
+}
+
+
+
 
 /* caja estadisticas */
 .caja-estadisticas{
@@ -123,7 +155,7 @@ hr{
 }
 
 .cajasflex img{
-    max-width: 22%;
+    max-width: 100%;
     border: none;
 }
 
@@ -153,8 +185,22 @@ hr{
 .texto-form{
     text-transform: uppercase;
     text-align: center;
-
+    animation-duration: .5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-name: agrandar;
 }
+@keyframes agrandar{
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 1.1;
+    }
+}
+
+
+
 
 /* footer */
 footer{
@@ -175,6 +221,7 @@ footer div a{
 .iconos{
     color: #2E2828;
     font-size: 1.8em;
+    padding: 10px;
 }
 
 
@@ -204,15 +251,26 @@ footer div a{
 }
 
 
-/* GALERÍA */
-.h2_galeria{
+/* CARRERA */
+.h2_carrera{
     background-color: #2E2828;
     max-width: 50%;
+    animation-duration: 1s;
+    animation-name: resaltarh2;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
 }
-.h2_galeria h2{
+.h2_carrera h2{
     text-transform: uppercase;
     font-size: 1.5em;
     color: white;
+}
+
+.prox-estrenos{
+    transition: all 1s linear;
+}
+.prox-estrenos :hover{
+    transform: scale(1.1);
 }
 
 .prox-estrenos img{
@@ -223,4 +281,129 @@ footer div a{
 }
 .prox-estrenos h3{
     font-size: 1.7em;
+}
+
+/* .h3_clue{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+.h4_clue{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+
+.h3_if{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+.h4_if{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+
+.h3_deadpool{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+.h4__deadpool{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+} */
+
+.clue{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+.if{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+.deadpool3{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+
+@keyframes resaltar{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.1;
+    }
+    100%{
+        scale: 1;
+    }
+}
+@keyframes resaltarh2 {
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+}
+cajasflex d-flex justify-content-between my-5 mx-5
+
+/* GALERÍA */
+
+
+.gal img{
+    max-width: 10%;
+}
+.cont_familia div img{
+    max-width: 100%;
+}
+.cont_prox-estrenos div img{
+    max-width: 100%;
+}
+.flia1{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+.flia2{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+.flia3{
+    animation-duration: 1s;
+    animation-name: resaltar;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
 }
