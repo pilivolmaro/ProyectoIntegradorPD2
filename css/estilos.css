@@ -271,12 +271,7 @@ footer div a{
     color: white;
 }
 
-.prox-estrenos{
-    transition: all 1s linear;
-}
-.prox-estrenos :hover{
-    transform: scale(1.1);
-}
+
 
 .prox-estrenos img{
     max-width: 100%;
@@ -411,4 +406,35 @@ cajasflex d-flex justify-content-between my-5 mx-5
     animation-direction: alternate-reverse;
     animation-iteration-count: 1;
     animation-delay: 3s;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px){
+
+    .navbar-brand{
+        max-width: 12%;
+
+    }
+
+
+    .info_h2{
+        font-size: .7em;
+
+    }
+    .h2_empresa{
+        font-size: 1.5em;
+    }
+
+    .formulario form div input{
+        max-width: 100%;
+    }
+    .formulario form div textarea{
+        max-width: 100%;
+    }
+    .texto-form{
+        font-size: 1.1em;
+    }
 }
