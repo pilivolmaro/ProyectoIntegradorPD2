@@ -414,18 +414,15 @@ cajasflex d-flex justify-content-between my-5 mx-5
 
 @media screen and (max-width: 600px){
 
+
     .navbar-brand{
         max-width: 12%;
 
     }
 
-
     .info_h2{
         font-size: .7em;
 
-    }
-    .h2_empresa{
-        font-size: 1.5em;
     }
 
     .formulario form div input{
