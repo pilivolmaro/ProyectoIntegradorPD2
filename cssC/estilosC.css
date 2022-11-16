@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #2E2828;
+    display: flex;
+    height: 300px;
+}
+
+/*cotenedor*/
+.header-text_box {
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.header-text_item {
+    padding: 0% 3%;
+}
+
+.header-text_item h1 {
+    text-transform: uppercase;
+    /* padding-top: 4%; */
+}
+
+.header-text_item li {
+    padding-right: 2%;
+}
+.header-text_item .volver {
+    text-decoration: none;
+    background-color: white;
+    color: #2E2828;
+    text-align: center;
+}
+
+
+/*lista 1*/
+.header-text_item .header-list_1 {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+/*lista 2*/
+.header-list_2 li {
+    list-style: none;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    transform-origin : 0 100% 0;
+    transition: .5s;
+}
+.header-list_2 li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.header-list_2 li:hover{
+    scale: 1.1;
+}
+
+
+
+
+.header-img {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-img img {
+    height: 70%;
+    border-radius: 100%;
+    padding: 10px;
+    /* position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; */
+    transition-duration: 1s;
+}
+
+.header-img img:hover{
+    rotate: 360deg;
+}
+
+
+/*main*/
+
+.main-cont {
+    display: flex;
+    margin: 30px;
+}
+
+.aside {
+    border: 2px solid #2E2828;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/*main_IDIOMAS*/
+.aside-idiomas {
+    margin-bottom: 30px;
+}
+
+.idiomas-title {
+    background-color: #2E2828;
+    color: white;
+    margin: 1.5em 5%;
+    transition-duration: 1s;
+}
+    .idiomas-title:hover{
+        scale: 1.1; 
+    }
+
+.idiomas-title h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.aside-idiomas p {
+    text-align: justify;
+    line-height: 2em;
+    padding-left: 10%;
+}
+
+
+/*main-CUALIDADES*/
+.aside-cualidades {
+    margin-bottom: 30px;
+}
+
+.cualidades-title {
+    background-color: #2E2828;
+    color: white;
+    margin: 2em 5%;
+    transition-duration: 1s;
+}
+    .cualidades-title:hover{
+        scale: 1.1; 
+    }
+
+.cualidades-title h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.aside-cualidades ul {
+    list-style: circle;
+    padding-left: 15%;
+}
+
+.aside-cualidades li {
+    line-height: 2em;
+}
+
+
+/*main-PREMIOS*/
+.aside-premios {
+    margin-bottom: 30px;
+}
+
+.premios-title {
+    background-color: #2E2828;
+    color: white;
+    margin: 2em 5%;
+    transition-duration: 1s;
+}
+    .premios-title:hover{
+        scale: 1.1; 
+    }
+
+.premios-title h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.texto-premio {
+    text-align: center;
+    line-height: 2em;
+    transition-duration: 1s;
+}
+.texto-premio:hover{
+    transform: scale(1.2);
+}
+
+
+/*main caja principal*/
+
+.main-info {
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*QUIEN SOY*/
+.info-title {
+    background-color: #2E2828;
+    color: white;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    transition-duration: 1s;
+}
+
+
+.info-title:hover{
+    scale: 1.1;
+}
+
+
+
+.info-title h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.info-quiensoy p {
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.caja-experiencia p {
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.caja-experiencia h4 {
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    transition: 1s;
+}
+    .caja-experiencia h4:hover{
+        translate: 20px;
+        font-size: 1.5em;
+    }
+
+
+.caja-experiencia {
+    margin-bottom: 20px;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #2E2828;
+    height: 100px;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.footer-item {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+
+.footer-item :hover{
+    text-decoration: underline;
+}
+
+
+.footer-item img {
+    width: 30px;
+    margin-right: 10px;
+
+}
+.footer-cont .footer-item img{
+    transition-duration: 1s;
+}
+.footer-cont .footer-item img:hover{
+    rotate: 360deg;
+}
+
+.footer-item p {
+    align-self: center;
+}
+
+
+
+
+
+
+
+/*PANTALLA CELULAR*/
+@media screen and (max-width: 600px) {
+    header {
+        display: block;
+        height: 370px;
+        margin-bottom: 180px
+    }
+
+    .header-text_box {
+        width: 100%;
+    }
+
+
+    .header-text_item {
+        padding: 3%;
+    }
+
+    .header-text_item h1 {
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /*header lista 1*/
+    .header-text_item .header-list_1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .header-text_item li {
+        padding-right: 3%;
+    }
+
+
+    /*header lista 2*/
+    .header-list_2 li {
+        text-align: center;
+    }
+
+    /*header img*/
+    .header-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-img img {
+        height: 40%;
+        padding: 0px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+
+    /*Body*/
+    .main-cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside {
+        width: 100%;
+        order: 1;
+        margin-top: 50px
+    }
+
+
+    .main-info {
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 2%;
+    }
+    .main-info p{
+        font-size: 1em;
+    }
+
+    .aside-cualidades ul{
+        padding-left: 10%;
+    }
+
+
+    /*QUIEN SOY*/
+    .info-title{
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .info-title_2 {
+        margin-top: 4em;
+    }
+
+
+    .caja-experiencia {
+        margin-bottom: 30px;
+    }
+
+
+    /*FOOTER*/
+    footer {
+        height: 200px;
+    }
+
+    .footer-cont {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .footer-item {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer-item img {
+        width: 30px;
+        margin-right: 0px;
+    }
+
+    .footer-item p {
+        display: none;
+    }
+
+}
+
+
+
+/*PANTALLA TABLET*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+
+
+
+    /*cotenedor del header*/
+    .header-text_box {
+        margin-left: 20px;
+    }
+
+
+    .header-text_item li {
+        padding-right: 5%;
+    }
+
+
+
+    .header-img {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-img img {
+        height: 50%;
+        padding: 0px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .main-info p{
+        font-size: 1em;
+    }
+    
+
+    /*main-CUALIDADES*/
+    .aside-cualidades ul {
+        padding-left: 20%;
+    }
+
+    /*main-PREMIOS*/
+
+    .texto-premio {
+        text-align: center;
+        line-height: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+    /*FOOTER*/
+    footer {
+        height: 200px;
+    }
+
+    .footer-cont {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .footer-item {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer-item img {
+        width: 30px;
+        margin-right: 0px;
+    }
+
+    .footer-item p {
+        display: none;
+    }
+}
